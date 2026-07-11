@@ -1,0 +1,21 @@
+{
+  "name": "DRUZZ-MD",
+  "description": "DRUZZ-MD WhatsApp bot made by Druzz_Dev",
+  "logo": "https://files.catbox.moe/8lv87r.jpg",
+  "keywords": ["bot","DRUZZ-MD","DRUZZDEV"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+        "description": "Put the DRUZZ-MD session-id here.",
+        "required": true
+    }
+},
+
+"buildpacks": [
+    {
+        "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+],
+"stack": "heroku-24"
+}
